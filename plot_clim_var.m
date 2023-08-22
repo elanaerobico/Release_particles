@@ -1,5 +1,6 @@
 function plot_clim_var(var_mean,error,fecha,ymin,ymax,vert_line,col)
 %hola
+%como estas
 jdx = size(fecha,1)-size(var_mean,1)+1;
  var_mean(93)= mean([var_mean(91),var_mean(92)]);
  error(93)= mean([error(91),error(92)]);
